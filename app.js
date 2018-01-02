@@ -13,4 +13,13 @@ app.get('/about', function(req, res){
 	res.render('about');
 })
 
+app.get('/blog', function(req, res){
+	res.render('blog');
+})
+
+app.get('/blog/new', function(req, res){
+	res.render('new');
+})
+
+
 app.listen(3000, () => console.log('Server is running!'))
