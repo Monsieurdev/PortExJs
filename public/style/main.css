@@ -11,3 +11,8 @@ body, html {
 	width: 40%;
 	margin: 25px auto;
 }
+
+.post {
+	text-align: center;
+	margin-top: 25px;
+}
